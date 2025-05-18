@@ -11,4 +11,10 @@ public class SampleController {
         return "data";
     }
 
+
+    @GetMapping("/public-api")
+    public String getDataPublic() {
+        return "data";
+    }
+
 }
